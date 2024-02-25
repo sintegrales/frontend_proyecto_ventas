@@ -6,7 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class ProveedorService {
 
-  url = 'http://localhost/ventas/backend/controlador/proveedor.php';
+  //url = 'http://localhost/ventas/backend/controlador/proveedor.php';
+  url = 'https://proyectpedidos.000webhostapp.com/backend/controlador/proveedor.php';
 
   constructor(private http: HttpClient) { }
 

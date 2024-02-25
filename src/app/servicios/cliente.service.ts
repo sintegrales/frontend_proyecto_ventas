@@ -6,7 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class ClienteService {
 
-  url = 'http://localhost/ventas/backend/controlador/cliente.php';
+  //url = 'http://localhost/ventas/backend/controlador/cliente.php';
+  url = 'https://proyectpedidos.000webhostapp.com/backend/controlador/cliente.php';
 
   constructor(private http: HttpClient) { }
 
